@@ -22,11 +22,11 @@
     <div class="main-container">
         <header class="header">
             <img src="./images/logo/Booki.png" alt="Logo de l'entreprise Booki" class="logo">
-            <nav class="menu" aria-describedby="Menu de navigation">
-                <a href="#hebergements" class="nav-button">Hébergements</a>
-                <a href="#activity" class="nav-button">Activités</a>
+            <nav class="menu" aria-describedby="Menu de navigation principal pour les hébergements et les activités">
+              <a href="#hebergements" class="nav-button" aria-label="Lien vers la section Hébergements">Hébergements</a>
+              <a href="#activity" class="nav-button" aria-label="Lien vers la section Activités">Activités</a>
             </nav>
-        </header>
+          </header>
         <main>
 
             <!-- Info goup -->
@@ -37,15 +37,14 @@
                 </div>
 
                 <!-- search-bar -->
-                <form action="" method="post" class="flex">
+                <form action="#" method="post" class="flex">
                     <div class="search-bar">
                         <i class="fa-solid fa-location-dot imap" aria-hidden="true"></i>
                         <input type="search" name="search" id="search" class="font-search-filter search-input"
-                            placeholder="Marseille, France" required>
-                        <button type="submit" class="font-search-filter search-btn">
+                            placeholder="Marseille, France" required aria-describedby="Inscrire la ville et le pays">
+                        <button type="submit" class="font-search-filter search-btn" aria-label='Recherche'>
                             <span>Recherche</span>
-                            <i class="fa-solid fa-magnifying-glass search-logo" aria-hidden="true"
-                                aria-label="Valider la recherche"></i>
+                            <i class="fa-solid fa-magnifying-glass search-logo" aria-hidden="true"></i>
                         </button>
                     </div>
                 </form>
@@ -67,7 +66,7 @@
                             <button class="filter-btn" aria-label="Filtre romantique"><i class="fa-solid fa-heart"
                                     aria-hidden="true"></i>
                                 Romantique</button>
-                            <button class="filter-btn" aria-label="Nos pépites"><i class="fa-solid fa-fire"
+                            <button class="filter-btn" aria-label="Filtre nos pépites"><i class="fa-solid fa-fire"
                                     aria-hidden="true"></i> Nos
                                 pépites</button>
                         </div>
@@ -83,7 +82,7 @@
 
 
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" role="region" aria-label="Section qui regroupe le résultat de votre recherche">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards ">
 
@@ -229,7 +228,7 @@
                     <a href="" class="font-search-filter">Afficher plus</a>
                 </section>
 
-                <section class="populaires">
+                <section class="populaires" role="region" aria-label="Section qui regroupe les hébergements les plus populaires de votre recherche">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -317,28 +316,28 @@
 
                     <article class="card">
                         <a href="#" class="col w100">
-                            <img src="./images/activites/reno-laithienne.jpg" alt="">
+                            <img src="./images/activites/reno-laithienne.jpg" alt="photographie de l'activité vieux port ">
                             <h3 class="card-title">Vieux-Port</h3>
                         </a>
                     </article>
 
                     <article class="card">
                         <a href="#" class="col w100">
-                            <img src="./images/activites/paul-hermann.jpg" alt="">
+                            <img src="./images/activites/paul-hermann.jpg" alt="photographie de l'activité fort de Pomègues">
                             <h3 class="card-title">Fort de Pomègues</h3>
                         </a>
                     </article>
 
                     <article class="card">
                         <a href="#" class="col w100">
-                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="photographie de l'activité Parc national des Calanques">
                             <h3 class="card-title">Parc national des Calanques</h3>
                         </a>
                     </article>
 
                     <article class="card">
                         <a href="#" class="col w100">
-                            <img src="./images/activites/florian-wehde.jpg" alt="">
+                            <img src="./images/activites/florian-wehde.jpg" alt="photographie de l'activité Notre dame de la Garde">
                             <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                         </a>
                     </article>

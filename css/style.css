@@ -610,9 +610,7 @@ footer {
     }
 
     /****  Filter-bar  ****/
-    .filter-bar {
-    }
-
+  
     .filter-contenaire {
         flex-direction: column;
         gap: 20px;
