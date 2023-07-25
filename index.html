@@ -35,43 +35,44 @@
                     <h2 class="section-title">Trouver votre hébergement pour des vacances de rêve</h2>
                     <p class="m0">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <!-- search-bar -->   
-                <form action="" method="post"></form>
-                <div class="search-bar">
-                        <div class="search">
-                            <div class="flex">
-                                <label for="search"><i class="fa-solid fa-location-dot imap"
-                                        aria-hidden="true"></i></label>
-                            </div>
-                            <input type="search" name="search" id="search" class="font-search-filter search-input"
-                                placeholder="Marseille, France" required>
-                            <button type="submit" class="font-search-filter search-btn">
-                                <span>Recherche</span>
-                                <i class="fa-solid fa-magnifying-glass search-logo" aria-hidden="true"
-                                    aria-label="Valider la recherche"></i>
-                            </button>
-                        </div>
-                   
-                </div> </form>
+
+                <!-- search-bar -->
+                <form action="" method="post" class="flex">
+                    <div class="search-bar">
+                        <i class="fa-solid fa-location-dot imap" aria-hidden="true"></i>
+                        <input type="search" name="search" id="search" class="font-search-filter search-input"
+                            placeholder="Marseille, France" required>
+                        <button type="submit" class="font-search-filter search-btn">
+                            <span>Recherche</span>
+                            <i class="fa-solid fa-magnifying-glass search-logo" aria-hidden="true"
+                                aria-label="Valider la recherche"></i>
+                        </button>
+                    </div>
+                </form>
+
                 <!-- filter-bar -->
                 <div class="filter-bar" role="region" aria-label="Barre de filtres">
                     <span class="font-search-filter">Filtres</span>
-                    <div>
-                        <button class="filter-btn" aria-label="Filtre économique">
-                            <i class="fa-sharp fa-solid fa-money-bill-wave" aria-hidden="true"></i>
-                            Économique </button>
-                        <button class="filter-btn" aria-label="Filtre familial"><i class="fa-solid fa-person"
-                                aria-hidden="true"></i>
-                            Famillial</button>
+                    <div class="filter-contenaire">
+                        <div class="div-btn">
+                            <button class="filter-btn" aria-label="Filtre économique">
+                                <i class="fa-sharp fa-solid fa-money-bill-wave" aria-hidden="true"></i>
+                                Économique </button>
+                            <button class="filter-btn" aria-label="Filtre familial"><i class="fa-solid fa-person"
+                                    aria-hidden="true"></i>
+                                Famillial</button>
+                        </div>
+                        <div class="div-btn">
+
+                            <button class="filter-btn" aria-label="Filtre romantique"><i class="fa-solid fa-heart"
+                                    aria-hidden="true"></i>
+                                Romantique</button>
+                            <button class="filter-btn" aria-label="Nos pépites"><i class="fa-solid fa-fire"
+                                    aria-hidden="true"></i> Nos
+                                pépites</button>
+                        </div>
                     </div>
-                    <div>
-                        <button class="filter-btn" aria-label="Filtre romantique"><i class="fa-solid fa-heart"
-                                aria-hidden="true"></i>
-                            Romantique</button>
-                        <button class="filter-btn" aria-label="Nos pépites"><i class="fa-solid fa-fire"
-                                aria-hidden="true"></i> Nos
-                            pépites</button>
-                    </div>
+
                 </div>
                 <!-- info-bar  -->
                 <div class="info-bar">
@@ -87,7 +88,7 @@
                     <div class="hebergements-cards ">
 
                         <article class="card item1">
-                            <a href="#" class="row">
+                            <a href="#" class="col">
                                 <img src="./images/hebergements/fred-kleber.jpg"
                                     alt="Image de la chambre d'hôtel du port" />
                                 <div class="card-content">
@@ -110,7 +111,7 @@
                         </article>
 
                         <article class="card item2">
-                            <a href="#" class="row">
+                            <a href="#" class="col">
                                 <img src="./images/hebergements/febrian-zakaria.jpg"
                                     alt="Image de la chambre d'hôtel chez Amina" />
                                 <div class="card-content">
@@ -133,7 +134,7 @@
                         </article>
 
                         <article class="card item3">
-                            <a href="" class="row">
+                            <a href="" class="col">
                                 <img src="./images/hebergements/reisetopia.jpg"
                                     alt="Image de la chambre d'hôtel les mouettes" />
                                 <div class="card-content">
@@ -156,7 +157,7 @@
                         </article>
 
                         <article class="card item4">
-                            <a href="#" class="row">
+                            <a href="#" class="col">
                                 <img src="./images/hebergements/annie-spratt.jpg"
                                     alt="Image de la chambre d'hôtel de la mer" />
                                 <div class="card-content">
@@ -179,7 +180,7 @@
                         </article>
 
                         <article class="card item5">
-                            <a href="#" class="row">
+                            <a href="#" class="col">
                                 <img src="./images/hebergements/marcus-loke.jpg"
                                     alt="Image de la chambre d'auberge la canebière" />
                                 <div class="card-content">
@@ -202,7 +203,7 @@
                         </article>
 
                         <article class="card item6">
-                            <a href="#" class="row">
+                            <a href="#" class="col">
                                 <img src="./images/hebergements/nicate-lee.jpg"
                                     alt="Image de la chambre de l'Auberge le panier" />
                                 <div class="card-content">
@@ -236,7 +237,7 @@
                     <div class="populaires-cards">
 
                         <article class="card">
-                            <a href="#" class="col">
+                            <a href="#" class="row w100">
                                 <img src="./images/hebergements/emile-guillemot.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit" />
                                 <div class="card-content">
@@ -259,7 +260,7 @@
                         </article>
 
                         <article class="card">
-                            <a href="#" class="col">
+                            <a href="#" class="row w100">
                                 <img src="./images/hebergements/aw-creative.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit" />
                                 <div class="card-content">
@@ -284,7 +285,7 @@
                         </article>
 
                         <article class="card">
-                            <a href="#" class="col">
+                            <a href="#" class="row w100">
                                 <img src="./images/hebergements/febrian-zakaria2.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit" />
                                 <div class="card-content">
@@ -315,28 +316,28 @@
                 <div class="activity-cards">
 
                     <article class="card">
-                        <a href="#" class="row">
+                        <a href="#" class="col w100">
                             <img src="./images/activites/reno-laithienne.jpg" alt="">
                             <h3 class="card-title">Vieux-Port</h3>
                         </a>
                     </article>
 
                     <article class="card">
-                        <a href="#" class="row">
+                        <a href="#" class="col w100">
                             <img src="./images/activites/paul-hermann.jpg" alt="">
                             <h3 class="card-title">Fort de Pomègues</h3>
                         </a>
                     </article>
 
                     <article class="card">
-                        <a href="#" class="row">
+                        <a href="#" class="col w100">
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="">
                             <h3 class="card-title">Parc national des Calanques</h3>
                         </a>
                     </article>
 
                     <article class="card">
-                        <a href="#" class="row">
+                        <a href="#" class="col w100">
                             <img src="./images/activites/florian-wehde.jpg" alt="">
                             <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                         </a>
