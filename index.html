@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/f88cf5eae9.js" crossorigin="anonymous"></script>
@@ -19,26 +19,27 @@
 </head>
 
 <body>
-    <div class="main-container">
-        <header class="header">
-            <img src="./images/logo/Booki.png" alt="Logo de l'entreprise Booki" class="logo">
-            <nav class="menu" aria-label="Menu de navigation principal pour les hébergements et les activités">
-              <a href="#hebergements" class="nav-button" aria-label="Lien vers la section Hébergements">Hébergements</a>
-              <a href="#activity" class="nav-button" aria-label="Lien vers la section Activités">Activités</a>
+    <div id="main-container">
+        <header id="header">
+            <img src="./images/logo/Booki.png" alt="Logo de l'entreprise Booki" id="logo">
+            <nav id="menu" aria-label="Menu de navigation principal pour les hébergements et les activités">
+                <a href="#hebergements" class="nav-button"
+                    aria-label="Lien vers la section Hébergements">Hébergements</a>
+                <a href="#activity" class="nav-button" aria-label="Lien vers la section Activités">Activités</a>
             </nav>
-          </header>
+        </header>
         <main>
 
             <!-- Info goup -->
-            <section class="info-group">
-                <div class="headline">
+            <section id="info-group">
+                <div id="headline">
                     <h2 class="section-title">Trouver votre hébergement pour des vacances de rêve</h2>
-                    <p class="m0">En plein centre-ville ou en pleine nature</p>
+                    <p>En plein centre-ville ou en pleine nature</p>
                 </div>
 
                 <!-- search-bar -->
                 <form action="#" method="post" class="flex">
-                    <div class="search-bar">
+                    <div id="search-bar">
                         <i class="fa-solid fa-location-dot imap" aria-hidden="true"></i>
                         <input type="search" name="search" id="search" class="font-search-filter search-input"
                             placeholder="Marseille, France" required aria-label="Inscrire la ville et le pays">
@@ -50,7 +51,7 @@
                 </form>
 
                 <!-- filter-bar -->
-                <div class="filter-bar" role="region" aria-label="Barre de filtres">
+                <div id="filter-bar" role="region" aria-label="Barre de filtres">
                     <span class="font-search-filter">Filtres</span>
                     <div class="filter-contenaire">
                         <div class="div-btn">
@@ -81,8 +82,8 @@
             </section>
 
 
-            <div class="hebergements-and-populaires">
-                <section class="hebergements"  aria-label="Section qui regroupe le résultat de votre recherche">
+            <div id="hebergements-and-populaires">
+                <section id="hebergements" aria-label="Section qui regroupe le résultat de votre recherche">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards ">
 
@@ -228,7 +229,8 @@
                     <a href="" class="font-search-filter">Afficher plus</a>
                 </section>
 
-                <section class="populaires" aria-label="Section qui regroupe les hébergements les plus populaires de votre recherche">
+                <section id="populaires"
+                    aria-label="Section qui regroupe les hébergements les plus populaires de votre recherche">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -310,34 +312,38 @@
                 </section>
             </div>
             <!-- Bloc activité à Marseille -->
-            <section id="activity" class="activity">
+            <section id="activity">
                 <h2 class="section-title">Activités à Marseille</h2>
                 <div class="activity-cards">
 
                     <article class="card">
                         <a href="#" class="col w100">
-                            <img src="./images/activites/reno-laithienne.jpg" alt="photographie de l'activité vieux port ">
+                            <img src="./images/activites/reno-laithienne.jpg"
+                                alt="photographie de l'activité vieux port ">
                             <h3 class="card-title">Vieux-Port</h3>
                         </a>
                     </article>
 
                     <article class="card">
                         <a href="#" class="col w100">
-                            <img src="./images/activites/paul-hermann.jpg" alt="photographie de l'activité fort de Pomègues">
+                            <img src="./images/activites/paul-hermann.jpg"
+                                alt="photographie de l'activité fort de Pomègues">
                             <h3 class="card-title">Fort de Pomègues</h3>
                         </a>
                     </article>
 
                     <article class="card">
                         <a href="#" class="col w100">
-                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="photographie de l'activité Parc national des Calanques">
+                            <img src="./images/activites/kilyan-sockalingum.jpg"
+                                alt="photographie de l'activité Parc national des Calanques">
                             <h3 class="card-title">Parc national des Calanques</h3>
                         </a>
                     </article>
 
                     <article class="card">
                         <a href="#" class="col w100">
-                            <img src="./images/activites/florian-wehde.jpg" alt="photographie de l'activité Notre dame de la Garde">
+                            <img src="./images/activites/florian-wehde.jpg"
+                                alt="photographie de l'activité Notre dame de la Garde">
                             <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                         </a>
                     </article>
@@ -365,14 +371,7 @@
                 <a href="#" class="link-footer">Nous contacter</a>
             </div>
         </footer>
-
-
     </div>
-
-
-
-
-
 </body>
 
 </html>
