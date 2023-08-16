@@ -42,5 +42,26 @@ Le projet prévois 80 heures et se déroulera du lundi 31 juillet 2023 au lundi 
 ### Temps de développement actuelle : 
 [![wakatime](https://wakatime.com/badge/github/aurelienLRY/OCC-P3-Booki.svg)](https://wakatime.com/badge/github/aurelienLRY/OCC-P3-Booki)
 
+## Soutenance 
+Durant la présentation orale, l’évaluateur interprétera le rôle de Sarah, votre CTO. La soutenance est structurée de la manière suivante :
+
+### Présentation des livrables (15 minutes) 
+Vous présenterez votre travail en expliquant vos choix techniques :
+- vous rappelez le contexte du projet (qu’est-ce qui a été réalisé, pourquoi et pour qui) ;
+- vous présentez le rendu visuel du projet en montrant les versions mobile, tablette et desktop ;
+- vous présentez le code du projet depuis votre IDE ou éditeur de texte. N’hésitez pas à montrer les points les plus complexes que vous avez dû réaliser ;
+- vous faites le bilan du projet.
+### Discussion (10 minutes) 
+Votre évaluateur, jouant toujours le rôle de Sarah, va vous questionner sur vos codes HTML et CSS. Il pourra vous challenger sur les points suivants : 
+- la validité de votre code auprès du W3C ;
+- le Web sémantique ;
+- l’importance de passer son code aux validateurs ;
+- le fonctionnement de IDE ;
+- la spécificité en CSS ; 
+- l’étude et la découpe de la maquette  ;
+- l’importance de séparer le HTML du CSS.
+### Débriefing (5 minutes)
+À la fin de la soutenance, l'évaluateur arrêtera de jouer le rôle de Sarah pour vous permettre de débriefer ensemble. 
+
 
 
