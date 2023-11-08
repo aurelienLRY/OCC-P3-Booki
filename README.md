@@ -64,4 +64,8 @@ Votre évaluateur, jouant toujours le rôle de Sarah, va vous questionner sur vo
 À la fin de la soutenance, l'évaluateur arrêtera de jouer le rôle de Sarah pour vous permettre de débriefer ensemble. 
 
 
+## Évaluation
+![p3](https://github.com/aurelienLRY/OCC-P3-Booki/assets/83220559/396ec884-db02-4183-af1f-94d109ac5e7b)
+
+
 
